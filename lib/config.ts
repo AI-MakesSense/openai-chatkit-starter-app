@@ -6,9 +6,29 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
+    label: "What is the SCOUTs Method?",
+    prompt: "What is the SCOUTs Method?",
     icon: "circle-question",
+  },
+  {
+    label: "Create an Objective Charter",
+    prompt: "I need help creating an Objective Charter",
+    icon: "document",
+  },
+  {
+    label: "Research plan",
+    prompt: "Help me come up with a research plan",
+    icon: "chart",
+  },
+  {
+    label: "Testing questionnaire",
+    prompt: "Help me creating a testing questionnaire for my project",
+    icon: "clipboard-list",
+  },
+  {
+    label: "Automation process outline",
+    prompt: "Help me outline a process for an automation",
+    icon: "gear",
   },
 ];
 
